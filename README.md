@@ -11,3 +11,5 @@
 
 ### Comments:  This is my first exposure to user stories
 
+
+### The navigator was Manal and the driver was Khaled

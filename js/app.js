@@ -132,7 +132,10 @@ Q6();
 
 
 
+function Q7 ()
+{
 
+  
 let snacks=['candy', 'chocolate', 'bescuit']
 let flag=false;
 for(let i=1;i<=6;i++)
@@ -155,5 +158,9 @@ for(let i=1;i<=6;i++)
 console.log(`Actually my Favorite Snacks are`)
 alert(`Actually my Favorite Snacks are ${snacks}`)
 
+
+}
+
+Q7();
 
 alert(`Thank you  ${userName} for your visit your final score is ${score} out of 7`)
