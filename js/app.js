@@ -5,6 +5,9 @@ console.log('Welcome  '+ userName)
 alert('Welcome:  ' + userName)
 
 let score=0;
+
+
+
 function Q1 ()
 {
   let edu=prompt('Am I an Enginer?')
@@ -15,27 +18,33 @@ if (edu == 'yes' || edu == 'y' )
    alert('Yes, Im Electrical Engineer')
   score++;} 
 else if (edu == 'no' || edu == 'n') 
-{   console.log(' I am Electrical Engineer')
-    alert(' I am Electrical Engineer')
+{   console.log(' I am Electrical Engineer');
+    alert(' I am Electrical Engineer');
 }
 else{ console.log('Please Answer by Yes/NO or Y/N')
-      alert('Please Answer by Yes/NO or Y/N')}
+      alert('Please Answer by Yes/NO or Y/N');
+    }
 
 }
 Q1();
 
- let uni=prompt('Did I graduate from The University of Jordan?')
+ function Q2 ()
+ {
+  let uni=prompt('Did I graduate from The University of Jordan?')
 
- uni=uni.toLowerCase()
-if (uni == 'yes' || uni == 'y' )
- {console.log('Yes, I Graduated from The University of Jordan')
-alert('Yes, I graduated from The University of Jordan')
-score++;} 
-else if (uni == 'no' || uni== 'n') 
-{ console.log('Actually, I Graduated from The University of Jordan')  
-alert('Actually, I Graduated from The University of Jordan')} 
-else { console.log('Please Answer by Yes/NO or Y/N')
-alert('Please Answer by Yes/NO or Y/N')}
+  uni=uni.toLowerCase()
+ if (uni == 'yes' || uni == 'y' )
+  {console.log('Yes, I Graduated from The University of Jordan')
+ alert('Yes, I graduated from The University of Jordan')
+ score++;} 
+ else if (uni == 'no' || uni== 'n') 
+ { console.log('Actually, I Graduated from The University of Jordan')  
+ alert('Actually, I Graduated from The University of Jordan')} 
+ else { console.log('Please Answer by Yes/NO or Y/N')
+ alert('Please Answer by Yes/NO or Y/N')}
+ 
+ }
+Q2();
 
 
  let myColor=prompt('Is Dark Blue my favorite color?')
