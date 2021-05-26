@@ -83,7 +83,10 @@ alert('Please Answer by Yes/NO or Y/N')}
 
 Q4();
 
+function Q5 ()
 
+{
+  
  let myGerman=prompt('Can I speak German' )
  myGerman=myGerman.toLowerCase()
  if ( myGerman == 'yes' || myGerman == 'y' )
@@ -119,6 +122,7 @@ alert(`I have 7 years of experience`)}
 
 }
 
+}
 
 
 
