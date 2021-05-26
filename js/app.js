@@ -65,7 +65,9 @@ alert('Please Answer by Yes/NO or Y/N')}
 }
 Q3();
 
-let homeCountry=prompt('Am I a Jordanian?')
+function Q4 ()
+{
+  let homeCountry=prompt('Am I a Jordanian?')
 homeCountry=homeCountry.toLowerCase()
  if ( homeCountry == 'yes' || homeCountry == 'y' )
  {console.log('Yes, I am a Jordanian')
@@ -76,6 +78,11 @@ else if ( homeCountry== 'no' ||  homeCountry== 'n')
 alert('Actually, I am a Jordanian') } 
 else { console.log('Please Answer by Yes/NO or Y/N')
 alert('Please Answer by Yes/NO or Y/N')}
+
+}
+
+Q4();
+
 
  let myGerman=prompt('Can I speak German' )
  myGerman=myGerman.toLowerCase()
