@@ -98,31 +98,38 @@ alert('you are right but soon I will')
 score++;} 
 else { console.log('Please Answer by Yes/NO or Y/N')
 alert('Please Answer by Yes/NO or Y/N')}
+}
 
-
-for (let i=0; i<4; i++)
+Q5();
+function Q6 ()
 {
-let yearsOfExp= prompt ('How many years of experience do I have ?')
-if (yearsOfExp== 7)
-{console.log(`Correct, I have 7 years of experience `)
- alert(`Correct, I have 7 years of experience `)
- score++;
- break;}
-
-else if (yearsOfExp > 7)
-{console.log(` It is too high`)
-alert(`It is too high`)}
-else if (yearsOfExp < 7)
-{console.log(` It is too low`)
-alert(`It is too low`)}
-
-if (i===3)// to make sure that we have excute this loop 4 times then alret this message
-{console.log(`I have 7 years of experience`)
-alert(`I have 7 years of experience`)}
-
+  for (let i=0; i<4; i++)
+  {
+  let yearsOfExp= prompt ('How many years of experience do I have ?')
+  if (yearsOfExp== 7)
+  {console.log(`Correct, I have 7 years of experience `)
+   alert(`Correct, I have 7 years of experience `)
+   score++;
+   break;}
+  
+  else if (yearsOfExp > 7)
+  {console.log(` It is too high`)
+  alert(`It is too high`)}
+  else if (yearsOfExp < 7)
+  {console.log(` It is too low`)
+  alert(`It is too low`)}
+  
+  if (i===3)// to make sure that we have excute this loop 4 times then alret this message
+  {console.log(`I have 7 years of experience`)
+  alert(`I have 7 years of experience`)}
+  
+  }
+  
 }
 
-}
+Q6();
+
+
 
 
 
