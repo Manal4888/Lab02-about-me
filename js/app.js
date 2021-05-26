@@ -5,7 +5,9 @@ console.log('Welcome  '+ userName)
 alert('Welcome:  ' + userName)
 
 let score=0;
-let edu=prompt('Am I an Enginer?')
+function Q1 ()
+{
+  let edu=prompt('Am I an Enginer?')
 
 edu=edu.toLowerCase()
 if (edu == 'yes' || edu == 'y' )
@@ -19,6 +21,8 @@ else if (edu == 'no' || edu == 'n')
 else{ console.log('Please Answer by Yes/NO or Y/N')
       alert('Please Answer by Yes/NO or Y/N')}
 
+}
+Q1();
 
  let uni=prompt('Did I graduate from The University of Jordan?')
 
