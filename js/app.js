@@ -87,10 +87,14 @@ alert(`It is too high`)}
 else if (yearsOfExp < 7)
 {console.log(` It is too low`)
 alert(`It is too low`)}
+
+if (i===3)// to make sure that we have excute this loop 4 times then alret this message
+{console.log(`I have 7 years of experience`)
+alert(`I have 7 years of experience`)}
+
 }
 
-console.log(`I have 7 years of experience`)
-alert(`I have 7 years of experience`)
+
 
 
 let snacks=['candy', 'chocolate', 'bescuit']
