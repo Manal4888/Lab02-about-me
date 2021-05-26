@@ -5,7 +5,12 @@ console.log('Welcome  '+ userName)
 alert('Welcome:  ' + userName)
 
 let score=0;
-let edu=prompt('Am I an Enginer?')
+
+
+
+function Q1 ()
+{
+  let edu=prompt('Am I an Enginer?')
 
 edu=edu.toLowerCase()
 if (edu == 'yes' || edu == 'y' )
@@ -13,27 +18,37 @@ if (edu == 'yes' || edu == 'y' )
    alert('Yes, Im Electrical Engineer')
   score++;} 
 else if (edu == 'no' || edu == 'n') 
-{   console.log(' I am Electrical Engineer')
-    alert(' I am Electrical Engineer')
+{   console.log(' I am Electrical Engineer');
+    alert(' I am Electrical Engineer');
 }
 else{ console.log('Please Answer by Yes/NO or Y/N')
-      alert('Please Answer by Yes/NO or Y/N')}
+      alert('Please Answer by Yes/NO or Y/N');
+    }
 
+}
+Q1();
 
- let uni=prompt('Did I graduate from The University of Jordan?')
+ function Q2 ()
+ {
+  let uni=prompt('Did I graduate from The University of Jordan?')
 
- uni=uni.toLowerCase()
-if (uni == 'yes' || uni == 'y' )
- {console.log('Yes, I Graduated from The University of Jordan')
-alert('Yes, I graduated from The University of Jordan')
-score++;} 
-else if (uni == 'no' || uni== 'n') 
-{ console.log('Actually, I Graduated from The University of Jordan')  
-alert('Actually, I Graduated from The University of Jordan')} 
-else { console.log('Please Answer by Yes/NO or Y/N')
-alert('Please Answer by Yes/NO or Y/N')}
+  uni=uni.toLowerCase()
+ if (uni == 'yes' || uni == 'y' )
+  {console.log('Yes, I Graduated from The University of Jordan')
+ alert('Yes, I graduated from The University of Jordan')
+ score++;} 
+ else if (uni == 'no' || uni== 'n') 
+ { console.log('Actually, I Graduated from The University of Jordan')  
+ alert('Actually, I Graduated from The University of Jordan')} 
+ else { console.log('Please Answer by Yes/NO or Y/N')
+ alert('Please Answer by Yes/NO or Y/N')}
+ 
+ }
+Q2();
 
-
+function Q3 ()
+{
+  
  let myColor=prompt('Is Dark Blue my favorite color?')
  myColor=myColor.toLowerCase()
  if ( myColor == 'yes' || myColor == 'y' )
@@ -47,7 +62,12 @@ else { console.log('Please Answer by Yes/NO or Y/N')
 alert('Please Answer by Yes/NO or Y/N')}
 
 
-let homeCountry=prompt('Am I a Jordanian?')
+}
+Q3();
+
+function Q4 ()
+{
+  let homeCountry=prompt('Am I a Jordanian?')
 homeCountry=homeCountry.toLowerCase()
  if ( homeCountry == 'yes' || homeCountry == 'y' )
  {console.log('Yes, I am a Jordanian')
@@ -59,6 +79,14 @@ alert('Actually, I am a Jordanian') }
 else { console.log('Please Answer by Yes/NO or Y/N')
 alert('Please Answer by Yes/NO or Y/N')}
 
+}
+
+Q4();
+
+function Q5 ()
+
+{
+  
  let myGerman=prompt('Can I speak German' )
  myGerman=myGerman.toLowerCase()
  if ( myGerman == 'yes' || myGerman == 'y' )
@@ -70,33 +98,44 @@ alert('you are right but soon I will')
 score++;} 
 else { console.log('Please Answer by Yes/NO or Y/N')
 alert('Please Answer by Yes/NO or Y/N')}
-
-
-for (let i=0; i<4; i++)
-{
-let yearsOfExp= prompt ('How many years of experience do I have ?')
-if (yearsOfExp== 7)
-{console.log(`Correct, I have 7 years of experience `)
- alert(`Correct, I have 7 years of experience `)
- score++;
- break;}
-
-else if (yearsOfExp > 7)
-{console.log(` It is too high`)
-alert(`It is too high`)}
-else if (yearsOfExp < 7)
-{console.log(` It is too low`)
-alert(`It is too low`)}
-
-if (i===3)// to make sure that we have excute this loop 4 times then alret this message
-{console.log(`I have 7 years of experience`)
-alert(`I have 7 years of experience`)}
-
 }
 
+Q5();
+function Q6 ()
+{
+  for (let i=0; i<4; i++)
+  {
+  let yearsOfExp= prompt ('How many years of experience do I have ?')
+  if (yearsOfExp== 7)
+  {console.log(`Correct, I have 7 years of experience `)
+   alert(`Correct, I have 7 years of experience `)
+   score++;
+   break;}
+  
+  else if (yearsOfExp > 7)
+  {console.log(` It is too high`)
+  alert(`It is too high`)}
+  else if (yearsOfExp < 7)
+  {console.log(` It is too low`)
+  alert(`It is too low`)}
+  
+  if (i===3)// to make sure that we have excute this loop 4 times then alret this message
+  {console.log(`I have 7 years of experience`)
+  alert(`I have 7 years of experience`)}
+  
+  }
+  
+}
+
+Q6();
 
 
 
+
+function Q7 ()
+{
+
+  
 let snacks=['candy', 'chocolate', 'bescuit']
 let flag=false;
 for(let i=1;i<=6;i++)
@@ -119,5 +158,9 @@ for(let i=1;i<=6;i++)
 console.log(`Actually my Favorite Snacks are`)
 alert(`Actually my Favorite Snacks are ${snacks}`)
 
+
+}
+
+Q7();
 
 alert(`Thank you  ${userName} for your visit your final score is ${score} out of 7`)
