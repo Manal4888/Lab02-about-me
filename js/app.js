@@ -46,7 +46,9 @@ Q1();
  }
 Q2();
 
-
+function Q3 ()
+{
+  
  let myColor=prompt('Is Dark Blue my favorite color?')
  myColor=myColor.toLowerCase()
  if ( myColor == 'yes' || myColor == 'y' )
@@ -59,6 +61,9 @@ alert('Actually, Dark Blue my is favorite color') }
 else { console.log('Please Answer by Yes/NO or Y/N')
 alert('Please Answer by Yes/NO or Y/N')}
 
+
+}
+Q3();
 
 let homeCountry=prompt('Am I a Jordanian?')
 homeCountry=homeCountry.toLowerCase()
