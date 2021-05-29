@@ -1,0 +1,49 @@
+header{
+color: blue;
+background-color: whitesmoke;
+font-family: 'Roboto', sans-serif;
+}
+
+
+header h1{
+    
+text-align: center;
+font-size: 100px;
+
+}
+
+header nav ul li {
+    display: inline;
+    
+    position: relative; 
+    right: 0;
+}
+
+main h1{
+    color:rgba(255, 0, 0, 0.144);
+    
+    background-color: whitesmoke;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    
+}
+main ul{
+    color:rgba(255, 0, 0, 0.308);
+    display: inline;
+    
+}
+
+
+
+main h2 {
+    text-align: center;
+    color: teal;
+    font-size: 20px;
+}
+
+main ol {
+    text-align: center;
+    color: teal;
+
+
+}
